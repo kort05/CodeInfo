@@ -526,6 +526,10 @@ section.contato .w100{
 	.ap{
 		margin-left: 20px;
 	}
+
+	.banner1{
+		height: 200px;
+	}
 }
 
 @media screen and (max-width: 768px){
