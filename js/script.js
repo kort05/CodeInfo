@@ -82,7 +82,7 @@ function closeCar(){
 
                 if(ProdutCartTitle[i].innerText == productTitle)
                 {
-                    ProdutCartTitle[i].parentElement.parentElement.getElementsByClassName("product-qtd-input")[0].value++
+                    ProdutCartTitle[i].parentElement.getElementsByClassName("product-qtd-input")[0].value++
                    updateTotal()
                 return   
                 }
