@@ -732,9 +732,7 @@ input[type = checkbox]{
 	.banner1{
 		height: 200px;
 	}
-}
 
-@media screen and (max-width: 768px){
 	.produto{
 		display: flex;
 	}
