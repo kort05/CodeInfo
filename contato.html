@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CodeInfo</title>
+        <meta charset="utf-8">
+        <meta name="author" content="codeinfo">
+        <meta name="description" content="Loja de telefones e acessórios">
+        <meta name="keywords" content="loja, celulares, acessórios, iphone, Airpods, compras">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link type="text/css" rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="container2">
+            <div class="tst">
+                <a href="index.html">
+                    <img class="logo" style="width: 150px;" src="assets/logo.png" alt="Logo do site CodeInfo, escrita em Branco e realçando no azul da barra de navegação. Vemos o desenho, também em branco, de um celular que remete ao tema tecnológico do site.">
+                </a>
+                <div id="divisona">
+                    <div class="cart-responsivo">
+                        <i id="btn-cart" style="color: white; cursor: pointer;" class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <nav class="menu-desktop">
+                        <ul>
+                            <li><a href="index.html">Loja</a></li>
+                            <li><a href="sobre.html">Sobre</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                            <li><i style="color: white; cursor: pointer;" class="fa-solid fa-cart-shopping"></i></li>
+                            <a href="login.html"><button id="login-button">Login</button></a>
+                        </ul>
+                    </nav>
+                </div>
+                <nav class="menu-mobile">
+                    <img style="width: 40px; margin-top: 12px;" src="assets/menu.png" alt=" Três barras horizontais na cor Branca que funcionam como botão de acesso ao menu ">
+                    <ul>
+                        <li><a href="index.html">Loja</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li class="selected"><a href="contato.html">Contato</a></li>
+                        <a href="login.html"><button id="login-button">Login</button></a>
+                    </ul>
+                </nav>
+            </div>
+                <div class="escrever">
+                    <input class="buscar" type="text" name="Buscar">
+                    <button id="button-buscar">Buscar</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </header>
+    <section class="contato">
+        <div class="container2">
+            <div class="w60 formulario">
+                <h2>ENVIE UM TICKET PARA O NOSSO SUPORTE</h2>
+                <form>
+                    <div class="w50"> 
+                        <input placeholder="Nome" type="text" required />
+                    </div>
+                    <div class="w50"> 
+                        <input placeholder="Sobrenome" type="text" required />
+                    </div>
+                    <div class="w100"> 
+                        <input placeholder="E-mail" type="email" required />
+                    </div>
+                    <div class="w100"> 
+                        <textarea placeholder="Mensagem" required></textarea>
+                    </div>
+                    <button class="button_contato"><p class="texto">Enviar Ticket</p></button>
+                </form>
+            </div>
+
+            <div class="w40 tags">
+                <h2><ion-icon name="mail"></ion-icon> Entre em contato</h2>
+                <a href="https://www.facebook.com"><p class="tag-contato"><ion-icon name="logo-facebook"></ion-icon>  @codeinfo</p></a>
+                <a href="https://www.instagram.com"><p class="tag-contato"><ion-icon name="logo-instagram"></ion-icon>  @codeinfo</p></a>
+                <p class="tag-contato"><ion-icon name="call"></ion-icon>  (51) 91122-2233</p>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </section>
+    <footer>
+            <img class="logof" style="width: 150px;" src="assets/logo.png" alt="Logo Magalu">
+    </footer>
+    <footer class="footer2">
+        <p>© Todos os direitos reservados</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script>
+        $('nav.menu-mobile img').click(function(){
+            $('nav.menu-mobile ul').slideToggle();
+        });
+    </script>
+    </body>
+</html>
